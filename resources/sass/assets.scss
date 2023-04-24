@@ -1,0 +1,124 @@
+.en-font {
+    font-family: $nunito
+}
+
+.fa-font {
+    font-family: $vazir
+}
+
+/*
+Background Color
+  text-$
+*/
+.text {
+    color: $text;
+}
+
+@each $name, $value in $text-colors {
+    .text-#{$name} {
+        color: $value;
+    }
+}
+
+/*
+Background Color
+  bg-$
+*/
+@each $name, $value in $bg-colors {
+    .bg-#{$name} {
+        background: $value;
+    }
+}
+
+/*
+Color
+  pallet-color-$
+  pallet-bg-color-$
+*/
+@each $name, $value in $map-colors {
+    .pallet-bg-color-#{$name} {
+        color: $value;
+    }
+
+    .pallet-color-#{$name} {
+        background: $value;
+    }
+}
+
+/*
+Size
+create class
+  __Margin
+  m-$
+  my-$
+  mx-$
+  ml-$
+  mr-$
+
+  __Padding
+  p-$
+  py-$
+  px-$
+  pl-$
+  pr-$
+  _______
+  font-$
+*/
+@each $name, $value in $sizes {
+    .p-#{$name} {
+        padding: $value;
+    }
+    .m-#{$name} {
+        margin: $value;
+    }
+
+    .py-#{$name} {
+        padding-bottom: $value;
+        padding-top: $value;
+    }
+    .my-#{$name} {
+        margin-bottom: $value;
+        margin-top: $value;
+    }
+
+    .px-#{$name} {
+        padding-left: $value;
+        padding-right: $value;
+    }
+    .mx-#{$name} {
+        margin-right: $value;
+        margin-left: $value;
+    }
+
+    .pl-#{$name} {
+        padding-left: $value;
+    }
+    .ml-#{$name} {
+        margin-left: $value;
+    }
+
+    .pr-#{$name} {
+        padding-right: $value;
+    }
+    .mr-#{$name} {
+        margin-right: $value;
+    }
+
+    .pt-#{$name} {
+        padding-top: $value;
+    }
+    .mt-#{$name} {
+        margin-top: $value;
+    }
+
+    .pb-#{$name} {
+        padding-bottom: $value;
+    }
+    .mb-#{$name} {
+        margin-bottom: $value;
+    }
+
+    .font-#{$name} {
+        font-size: $value;
+    }
+}

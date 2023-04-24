@@ -1,0 +1,90 @@
+$color-one: #3E54AC;
+$color-three: #394867;
+$color-two: #212A3E;
+$color-four: #F1F6F9;
+$map-colors: (
+    "color-one": #3E54AC,
+    "color-three": #394867,
+    "color-two": #212A3E,
+    "color-four": #F1F6F9,
+);
+
+/* Text Color */
+$text: #565360;
+$text-label: #908e9b;
+$text-disable: #e1dfe9;
+$text-success: #3f9639;
+$text-warning: #F9D949;
+$text-danger: #D60000;
+$text-primary: #295ae7;
+$text-info: #2FA4FF;
+$text-dark: #222831;
+$text-light: #F1F6F9;
+$text-colors: (
+    "text": #565360,
+    "label": #908e9b,
+    "disable": #e1dfe9,
+    "success": #3f9639,
+    "warning": #F9D949,
+    "danger": #D60000,
+    "primary": #2F58CD,
+    "info": #2FA4FF,
+    "dark": #222831,
+    "light": #F1F6F9,
+);
+
+/* Background Color */
+$bg-success: #a6e1b7;
+$bg-warning: #F7D060;
+$bg-danger: #ff8280;
+$bg-primary: #2F58CD;
+$bg-dark: #222831;
+$bg-light: #F1F6F9;
+$bg-colors: (
+    "success": #a6e1b7,
+    "warning": #F7D060,
+    "danger": #ff8280,
+    "primary": #2F58CD,
+    "dark": #222831,
+    "light": #F1F6F9,
+);
+
+/* Sizes */
+$ss: .25rem; /* 4px */
+$sm: .5rem; /* 8px */
+$sl: .75rem; /* 12px */
+$ms: 1rem; /* 16px */
+$mm: 1.25rem; /* 20px */
+$ml: 1.5rem; /* 24px */
+$ls: 2rem; /* 32px */
+$lm: 3rem; /* 48px */
+$ll: 4rem; /* 74px */
+$sizes: (
+    "ss":$ss,
+    "sm":$sm,
+    "sl":$sl,
+    "ms":$ms,
+    "mm":$mm,
+    "ml":$ml,
+    "ls":$ls,
+    "lm":$lm,
+    "ll":$ll,
+);
+
+$portrait-mobile: 480px;
+$landscape-mobile: 768px;
+$tablet: 1024px;
+$laptop: 1440px;
+$large-desktop: 1440px;
+
+$breakpoint: (
+    "portrait-mobile" : 480px,
+    "landscape-mobile" : 768px,
+    "tablet" : 1024px,
+    "laptop" : 1440px,
+    "large-desktop" : 1440px,
+);
+
+$font-web: Vazirmatn, Nunito;
+$vazir: Vazirmatn;
+$nunito: Nunito;
